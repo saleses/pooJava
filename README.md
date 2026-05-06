@@ -19,9 +19,9 @@
 > - Visibilidades (modificadores de acesso)
 > 
 
-## **1. Conceitos estruturais**
+**1. Conceitos estruturais**
 
-# *1.1. Classes*
+*1.1. Classes*
 É uma *abstração* de algo do mundo real. Um template ou projeto que define a estrutura e o comportamento de *objetos*.
 Objetos que serão instanciados com seus *atributos*, *modificadores* e *métodos* a partir de uma classe.
 
