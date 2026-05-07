@@ -1,27 +1,50 @@
-# PROGRAMAÇÃO ORIENTADA A OBJETO EM JAVA
+# POO - Programação orientada a objeto em Java 
 
-> ### **Conceitos básicos de programação orientada a objetos**
->
-> **1. Conceitos estruturais**
-> - Classes
-> - Atributos
-> - Métodos
-> - Objetos
-> 
-> **2. Conceitos relacionais**
-> - Herança
-> - Polimorfismo
-> - Associação
-> - Interface
-> 
-> **3. Conceitos organizacionais**
-> - Pacotes
-> - Visibilidades (modificadores de acesso)
-> 
+## Conceitos básicos de programação orientada a objetos
+
+```
+**1. Conceitos básicos da linguagem Java**
+- Variáveis
+- Condicionais
+- Loops
+- etc
+
+**2. Conceitos estruturais**
+- Classes
+- Atributos
+- Métodos
+- Objetos
+
+**3. Conceitos relacionais**
+- Herança
+- Polimorfismo
+- Associação
+- Interface
+
+**4. Conceitos organizacionais**
+- Pacotes
+- Visibilidades (modificadores de acesso)
+```
+
+### **1. Conceitos básicos da linguagem Java**
+
+O que é Orientação a objeto? 
+A programação orientada a objeto é um paradigma de desenvolvimento de software com base em objetos do mundo real. Estes objetos são instanciados (criados) a partir de um template (classe) que descreve seus atributos (dados), métodos (comportamentos).
+
+Os quatro pilares da POO
+- encapsulamento
+- herança
+- polimorfismo
+- abstração
+
+Benefícios da POO
+- modularidade
+- reutilização
+- manutenibilidade
+
 
 **1. Conceitos estruturais**
 
-*1.1. Classes*
-É uma *abstração* de algo do mundo real. Um template ou projeto que define a estrutura e o comportamento de *objetos*.
-Objetos que serão instanciados com seus *atributos*, *modificadores* e *métodos* a partir de uma classe.
+** Classes**
+É uma abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
 
