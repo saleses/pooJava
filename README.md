@@ -47,8 +47,8 @@ Benefícios da POO
 - reutilização
 - manutenibilidade
 
-## 2. Conceitos estruturais**
+## 2. Conceitos estruturais
 
-** Classes**
-É uma abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
+**Classes**
+É a abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
 
