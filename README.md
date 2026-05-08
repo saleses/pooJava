@@ -50,5 +50,6 @@ Benefícios da POO
 ## 2. Conceitos estruturais
 
 **Classes**
+
 É a abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
 
