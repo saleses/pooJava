@@ -53,6 +53,11 @@ Benefícios da POO
 
 É a abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
 
+*Declaração da classe*
+```
+public class NomeDaClasse {}
+```
+
 **Atributos**
 
 É um elemento presente em uma classe ou instância de objetos responsável por definir a estrutura de dados com uma determinada característica. 
