@@ -56,6 +56,7 @@ Benefícios da POO
 A palavra-chave para definição de uma classe é *class* que antecede o nome da classe. Esta deve ser definida com a primeira letra em UpperCase e, em sequida o bloco que contém a estrutura do códido da classe é delimitado pelas chaves. 
 
 ```
+html
 public <span style="color:blue">class</span> *NomeDaClasse* {}
 ```
 
@@ -77,6 +78,7 @@ Características:
 - retorno: é a devolução de uma ação do método conforme desejado
 
 ```
+html
 public class HelloWorld {
     public static void *main*(String[] args) {
         System.out.println("Hello World!");
