@@ -53,9 +53,10 @@ Benefícios da POO
 
 É a abstração de algo do mundo real. É o template que define a estrutura dos objetos que serão instanciados com base em seus atributos e comportamentos definidos.
 
-*Declaração da classe*
+A palavra-chave para definição de uma classe é *class* que antecede o nome da classe. Esta deve ser definida com a primeira letra em UpperCase e, em sequida o bloco que contém a estrutura do códido da classe é delimitado pelas chaves. 
+
 ```
-public class NomeDaClasse {}
+public <span style="color:blue">class</span> *NomeDaClasse* {}
 ```
 
 **Atributos**
@@ -68,9 +69,18 @@ Tipos de atributos na linguagem Java: *boolean, byte, short, int, long, float, d
 
 São pedaços de código, sub-rotinas, que executam uma ação específica. Comparativamente, são as funções na programação estruturada. 
 
+Possue uma coleção de declarações (parãmetros), nenhum ou mais de um, para performar em uma ação definida. Inicialmente, existe um método importante para a linguagem Java chamado *Main*. Usado pelo Java para iniciar e executar o programa (Entrypoint para o código Java).
+
 Características: 
 - Assinatura: é a sua definição, nome do método
 - Parâmetros: informações passadas ao método para execução de ação (facultativo)
 - retorno: é a devolução de uma ação do método conforme desejado
 
+```
+public class HelloWorld {
+    public static void *main*(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
 
