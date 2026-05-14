@@ -69,18 +69,33 @@ Tipos de atributos na linguagem Java: *boolean, byte, short, int, long, float, d
 
 São pedaços de código, sub-rotinas, que executam uma ação específica. Comparativamente, são as funções na programação estruturada. 
 
-Possue uma coleção de declarações (parãmetros), nenhum ou mais de um, para performar em uma ação definida. Inicialmente, existe um método importante para a linguagem Java chamado *Main*. Usado pelo Java para iniciar e executar o programa (Entrypoint para o código Java).
-
 Características: 
 - Assinatura: é a sua definição, nome do método
-- Parâmetros: informações passadas ao método para execução de ação (facultativo)
+- Parâmetros: informações passadas ao método para execução de ação (nenhum ou mais de um parâmetro)
 - retorno: é a devolução de uma ação do método conforme desejado
+- void: utilizado quando o método não tem um retorno definido.
 
+*Método main:* importante método Java utilizado para iniciar e executar o programa
 ```
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+public static void main(String[] args) {}
+```
+
+*Estrutura de um método*
+```
+public static boolean nomeMetodo() {}
+```
+
+*Método com parâmetros e retorno*
+```
+public static boolean nomeMetodo(tipo1 valor1, tipo2 valor2) {
+    // bloco de código
+
+    return value;  // retorno do tipo boolean
 }
+```
+
+*Chamada de um método*: para execução de um método.
+```
+nomeMetod()
 ```
 
