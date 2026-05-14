@@ -82,7 +82,7 @@ public static void main(String[] args) {}
 
 *Estrutura de um método*
 ```
-public static boolean nomeMetodo() {}
+public static void nomeMetodo() {}
 ```
 
 *Método com parâmetros e retorno*
@@ -96,6 +96,6 @@ public static boolean nomeMetodo(tipo1 valor1, tipo2 valor2) {
 
 *Chamada de um método*: para execução de um método.
 ```
-nomeMetod()
+nomeMetodo()
 ```
 
