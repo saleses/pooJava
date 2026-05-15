@@ -1,18 +1,10 @@
 # POO - Programação orientada a objeto em Java 
 
-## Modelo de subtítulo 
-
-```
-Formato para códigos exemplificativos
-```
-
 ## Ementa
 
-**1. Conceitos básicos da linguagem Java**
-- Variáveis
-- Condicionais
-- Loops
-- etc
+**1. Introdução a linguagem Java**
+- Programação orientada a objeto 
+- 
 
 **2. Conceitos estruturais**
 - Classes
@@ -30,7 +22,7 @@ Formato para códigos exemplificativos
 - Pacotes
 - Visibilidades (modificadores de acesso)
 
-## 1. Conceitos básicos
+## 1. Introdução a linguagem Java 
 
 **Programação orientada a objeto**
  
