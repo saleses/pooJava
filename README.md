@@ -92,10 +92,14 @@ nomeMetodo()
 ```
 
 *Método Overloading (sobrecarga)*
+
 Ocorre quando uma classe tem múltiplos métodos com o mesmo nome, mas com diferentes parâmetros declarados.
-Java resolve um dos métodos de acordo com os parâmetros passados na chamada. Para atender a necessidade da instãncia que o solicitou. 
+
+A linguagem Java resolve um dos métodos de acordo com os parâmetros passados na chamada, ou seja, de acordo com as características da funcionalidade desejada do método. Faz-se a sobrecarga. 
 
 Em outras palavras, a assinatura do método é única, mas a combinação de parâmetros são diferentes. O número de parâmetros, seus tipos e a ordem em que são declarados. 
+
+Exemplo de métodos que sofrem overloading
 ```
 public static void nameMethod(int parameter01) {}
 public static void nameMethod(float parameter01) {}
@@ -103,3 +107,4 @@ public static void nameMethod(int parameter01, float parameter02) {}
 public static void nameMethod(float parameter01, int parameter02) {}
 public static void nameMethod(int parameter01, int parameter02, float parameter03) {}
 ```
+
