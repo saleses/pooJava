@@ -108,3 +108,30 @@ public static void nameMethod(float parameter01, int parameter02) {}
 public static void nameMethod(int parameter01, int parameter02, float parameter03) {}
 ```
 
+*Métodos Getters e Setters*
+
+São técnicas padronizadas para gerenciamento de acesso a atributos declarados em uma classe a serem usados por uma instãncia de objeto. 
+
+Getter: utilizado para acesso, leitura de um atributo
+```
+public String getNomeAtributo() {
+    return nomeAtributo
+}
+```
+
+Setter: utilizado para alterar, modificar um atributo de forma protegida. 
+```
+public void setNomeAtributo() {
+    this.nomeAtributo = nomeAtributo;
+}
+
+*keyword this: é uma especial referência para uma instância de objeto.*
+```
+
+*Modificadores de acesso*
+
+1. public: significa que uma classe dentro de um mesmo pacote está acessível. 
+2. protected: significa o acesso à uma classe de um mesmo pacote e algumas subclasses de outro pacote
+3. private: nenhuma classe pode acessá-la
+Obs.: quando um modificador de acesso estiver omitido significa que ele é do tipo public. 
+
