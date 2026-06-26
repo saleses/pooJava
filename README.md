@@ -135,3 +135,27 @@ public void setNomeAtributo() {
 3. private: nenhuma classe pode acessá-la
 Obs.: quando um modificador de acesso estiver omitido significa que ele é do tipo public. 
 
+*Constructor*
+
+São métodos especiais executados automaticamente que provem valaores iniciais para o momento da criação de um objeto.
+
+Características: 
+1. tem o mesmo nome da classe
+2. não retorna nenhum valor
+3. parâmetros facultativos
+4. constructor default: se não for declarado explícito
+
+Constructor overloading
+
+É a declaração de múltiplos constructors com diferentes parâmetros
+
+Constructor chaining with this()
+- é quando um constructor explicitamente chamar outro constructor overloaded usando this()
+- os argumentos this() devem ser os primeiros a ser executados dentro do bloco de código.
+
+```
+public NomeClasse() {
+
+}
+```
+
