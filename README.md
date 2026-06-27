@@ -156,5 +156,16 @@ Constructor overloading
 É a declaração de múltiplos constructors com diferentes parâmetros
 
 Constructor chaining with this()
-É quando um constructor explicitamente chamar outro constructor overloaded usando this(). Os argumentos this() devem ser os primeiros a ser executados dentro do bloco de código.
+É uma técnica no qual um construtor chama outro para reutilizar a lógica de inicialização. Eliminando a duplicação de código e centralizando o processo de criação de objetos. Pode acontecer de duas formas: dentro da mesma classe ou entre classes (herança).
+
+É uma técnica para melhorar a manutenibilidade e organização do código. 
+
+1. Usando this()
+Quando há mais de um construtor na mesma classe e deseja a chamada de um construtor de dentro de outro.
+Obs.: a chamada this() deve ser obrigatoriamente a primeira instrução. 
+2. Usando super()
+Quando uma classe filha herda de uma classe pai, o construtor da classe filha deve inicilizar primeiro os atributos da classe pai.
+Obs.: a chamada super() deve estar na primeira linha do construtor. Se não estiver, o Java fará. 
+
+*Referência vs Objeto vs Instãncia vs Classe*
 
