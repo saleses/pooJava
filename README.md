@@ -169,3 +169,9 @@ Obs.: a chamada super() deve estar na primeira linha do construtor. Se não esti
 
 *Referência vs Objeto vs Instãncia vs Classe*
 
+1. Classe: o molde, template de um objeto a ser instanciado
+2. Objeto: é a entidade real alocado em memória com seus atributos e métodos criados a partir de uma classe. O dado em si.
+3. Instância: termo técnico que indica a origem do objeto moldado a partir de uma classe
+4. Referência: é o endereço ou ponteiro que indica onde o objeto está guardado. Uma variável usado para manipular o objeto. 
+
+
