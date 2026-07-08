@@ -175,3 +175,17 @@ Obs.: a chamada super() deve estar na primeira linha do construtor. Se não esti
 4. Referência: é o endereço ou ponteiro que indica onde o objeto está guardado. Uma variável usado para manipular o objeto. 
 
 
+*Herança*
+
+Forma de reuso de código
+
+Organização de classes com hierarquia entre superclasse e subclasse que herda funcionalidades da primeira.
+
+keywork: extends (usada na subclasse)
+
+super(): deve ser declarado no início como o this()
+
+Uma classe pode especificar UMA E SOMENTE uma outra classe
+
+obs.: para identificar uma subclasse basta fazer a pergunta: uma classe A É UM tipo de classe B? 
+
