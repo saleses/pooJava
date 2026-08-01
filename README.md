@@ -14,6 +14,7 @@
 
 **3. Conceitos relacionais**
 - Herança
+- Composição
 - Polimorfismo
 - Associação
 - Interface
@@ -125,7 +126,8 @@ public void setNomeAtributo() {
     this.nomeAtributo = nomeAtributo;
 }
 
-*keyword this: é uma especial referência para uma instância de objeto.*
+*Keyworde null: palavra-chave para atributo com um tipo definido mas sem referência para um objeto.
+*Keyword this(): é uma especial referência para uma instância de objeto.*
 ```
 
 *Modificadores de acesso*
@@ -133,7 +135,7 @@ public void setNomeAtributo() {
 1. public: significa que uma classe dentro de um mesmo pacote está acessível. 
 2. protected: significa o acesso à uma classe de um mesmo pacote e algumas subclasses de outro pacote
 3. private: nenhuma classe pode acessá-la
-Obs.: quando um modificador de acesso estiver omitido significa que ele é do tipo public. 
+Nota: os modificadores de acesso são técnicas de encapsulamento
 
 *Constructor*
 
@@ -162,7 +164,7 @@ Constructor chaining with this()
 
 1. Usando this()
 Quando há mais de um construtor na mesma classe e deseja a chamada de um construtor de dentro de outro.
-Obs.: a chamada this() deve ser obrigatoriamente a primeira instrução. 
+Obs.: a chamada this() deve ser obrigatoriamente a primeira instrução, existir apenas uma chamada, não estar misturado com o super(), evitar chamadas circulares. 
 2. Usando super()
 Quando uma classe filha herda de uma classe pai, o construtor da classe filha deve inicilizar primeiro os atributos da classe pai.
 Obs.: a chamada super() deve estar na primeira linha do construtor. Se não estiver, o Java fará. 
